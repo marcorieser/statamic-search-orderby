@@ -31,10 +31,16 @@ return [
             'fields' => ['title'],
         ],
 
-        // 'blog' => [
-        //     'driver' => 'local',
-        //     'searchables' => 'collection:blog',
-        // ],
+         'posts' => [
+             'driver' => 'local',
+             'searchables' => 'collection:posts',
+             'fields' => [
+                 'title',
+                 'order_number',
+             ],
+             'sites' => 'all',
+             'min_characters' => 0
+         ],
 
     ],
 
