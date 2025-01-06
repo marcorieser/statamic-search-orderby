@@ -1,0 +1,8 @@
+de:
+  name: German
+  url: /
+  locale: de_DE
+en:
+  name: English
+  url: /en
+  locale: en_US
